@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SkulApp.Pages.MySettingsPage"
+             Title="My Settings">
+  <ScrollView>
+    <StackLayout Spacing="10">
+      <StackLayout Orientation="Horizontal">
+        <Label Text="E-Mail *:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="userNameEntry"
+               Keyboard="Email"
+               Placeholder="E-Mail"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="First name *:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="firstNameEntry"
+               Placeholder="First name"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Last name *:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="lastNameEntry"
+               Placeholder="Last name"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Telephone *:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="phoneEntry"
+               Keyboard="Telephone"
+               Placeholder="Phone"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Address *:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="addressEntry"
+               Placeholder="Address"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Grade:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="gradeEntry"
+               Placeholder="Grade"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Group:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+        <Entry x:Name="groupEntry"
+               Placeholder="Grade"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+      </StackLayout>
+      <ActivityIndicator x:Name="waitActivityIndicator"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"/>
+      <StackLayout Orientation="Horizontal">
+        <Button x:Name="changePasswordButton"
+                 Text="Change password"
+                 BackgroundColor="Yellow"
+                 TextColor="Black"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center"/>
+      </StackLayout>
+      <Button x:Name="saveButton"
+               Text="Save"
+               BackgroundColor="Lime"
+               TextColor="Black"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+    </StackLayout>
+  </ScrollView>
+  
+</ContentPage>
