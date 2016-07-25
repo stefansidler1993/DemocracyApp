@@ -12,7 +12,7 @@ namespace DemocracyApp.Pages
     {
         public MyHomeWorkPage()
         {
-            InitializeComponent();
+           // InitializeComponent();
 
             this.Padding = Device.OnPlatform(
            new Thickness(10, 20, 10, 10),

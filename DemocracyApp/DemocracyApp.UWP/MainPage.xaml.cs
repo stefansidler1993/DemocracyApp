@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace SkulApp.UWP
+namespace DemocracyApp.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace SkulApp.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new SkulApp.App());
+            LoadApplication(new DemocracyApp.App());
         }
     }
 }

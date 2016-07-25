@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkulApp.Classes
+namespace DemocracyApp.Classes
 {
     public class ChangePasswordRequest
     {

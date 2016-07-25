@@ -1,11 +1,12 @@
-﻿using System;
+﻿using DemocracyApp.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
 
-namespace SkulApp
+namespace DemocracyApp
 {
     public class App : Application
     {

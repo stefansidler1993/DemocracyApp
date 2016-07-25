@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace SkulApp.iOS
+namespace DemocracyApp.iOS
 {
     public class Application
     {

@@ -1,16 +1,11 @@
-﻿using SkulApp.Classes;
-using SkulApp.Pages;
+﻿using DemocracyApp.Classes;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 
-namespace SkulApp
+
+namespace DemocracyApp.Pages
 {
     public partial class LoginPage : ContentPage
     {
@@ -87,7 +82,7 @@ namespace SkulApp
                 {
                     waitActivityIndicator.IsRunning = false;
                     await DisplayAlert("Error", "Wrong user or password ", "Acept");
-                   // await DisplayAlert("Error", result, "Acept");
+                    // await DisplayAlert("Error", result, "Acept");
                     //passwordEntry.Text = string.Empty;
                     //passwordEntry.Focus();
                     return;

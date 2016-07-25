@@ -1,4 +1,4 @@
-﻿using SkulApp.Classes;
+﻿using DemocracyApp.Classes;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace SkulApp.Pages
+namespace DemocracyApp.Pages
 {
     public partial class MySettingsPage : ContentPage
     {

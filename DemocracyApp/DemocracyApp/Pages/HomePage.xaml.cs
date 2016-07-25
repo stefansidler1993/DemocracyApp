@@ -1,9 +1,9 @@
-﻿using SkulApp.Classes;
+﻿using DemocracyApp.Classes;
 using System;
 
 using Xamarin.Forms;
 
-namespace SkulApp.Pages
+namespace DemocracyApp.Pages
 {
     public partial class HomePage : ContentPage
     {
@@ -12,7 +12,7 @@ namespace SkulApp.Pages
         public HomePage(UserPassword user)
         {
             InitializeComponent();
-
+            
             this.user = user;
             userNameLabel.Text = user.FullName;
 

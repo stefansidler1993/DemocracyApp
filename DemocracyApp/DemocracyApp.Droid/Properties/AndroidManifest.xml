@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="s.s" android:installLocation="auto" android:versionCode="1" android:versionName="skula">
-	<uses-sdk android:minSdkVersion="15" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="s.s" android:installLocation="auto" android:versionCode="1" android:versionName="DemocracyApp">
+	<uses-sdk />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label=" " android:icon="@drawable/icon"></application>
+	<application android:label="DemocracyApp" android:icon="@drawable/icon"></application>
 </manifest>

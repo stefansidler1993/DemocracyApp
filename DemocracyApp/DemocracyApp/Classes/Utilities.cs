@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace SkulApp.Classes
+namespace DemocracyApp.Classes
 {
     public class Utilities
     {
